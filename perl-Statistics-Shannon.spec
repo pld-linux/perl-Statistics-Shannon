@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Statistics
-%define	pnam	Shannon
+%define		pdir	Statistics
+%define		pnam	Shannon
 Summary:	Statistics::Shannon - Shannon index
 Summary(pl):	Statistics::Shannon - wska¼nik Shannona
 Name:		perl-Statistics-Shannon
