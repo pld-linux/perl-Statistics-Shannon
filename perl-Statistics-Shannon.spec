@@ -9,7 +9,7 @@ Summary:	Statistics::Shannon - Shannon index
 Summary(pl):	Statistics::Shannon - wska¼nik Shannona
 Name:		perl-Statistics-Shannon
 Version:	0.03
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
