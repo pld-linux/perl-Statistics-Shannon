@@ -6,7 +6,7 @@
 %define		pdir	Statistics
 %define		pnam	Shannon
 Summary:	Statistics::Shannon - Shannon index
-Summary(pl):	Statistics::Shannon - wskaºnik Shannona
+Summary(pl.UTF-8):   Statistics::Shannon - wska≈∫nik Shannona
 Name:		perl-Statistics-Shannon
 Version:	0.03
 Release:	4
@@ -27,9 +27,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Statistics::Shannon module can be used to compute the Shannon
 index of data, which is a variability measure of data.
 
-%description -l pl
-Modu≥ Statistics::Shannon moøe byÊ uøywany do liczenia wskaºnika
-Shannona danych, ktÛry jest miar± zmienno∂ci danych.
+%description -l pl.UTF-8
+Modu≈Ç Statistics::Shannon mo≈ºe byƒá u≈ºywany do liczenia wska≈∫nika
+Shannona danych, kt√≥ry jest miarƒÖ zmienno≈õci danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
