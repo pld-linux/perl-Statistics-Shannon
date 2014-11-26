@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Statistics
 %define		pnam	Shannon
+%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::Shannon - Shannon index
 Summary(pl.UTF-8):	Statistics::Shannon - wskaźnik Shannona
 Name:		perl-Statistics-Shannon
@@ -15,11 +15,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b8f44ee0699a22296726982ef1e70ee5
+URL:		http://search.cpan.org/dist/Statistics-Shannon/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Statistics-Frequency >= 0.03
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
