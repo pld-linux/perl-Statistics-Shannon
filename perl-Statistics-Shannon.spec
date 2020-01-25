@@ -4,7 +4,6 @@
 
 %define		pdir	Statistics
 %define		pnam	Shannon
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::Shannon - Shannon index
 Summary(pl.UTF-8):	Statistics::Shannon - wskaźnik Shannona
 Name:		perl-Statistics-Shannon
